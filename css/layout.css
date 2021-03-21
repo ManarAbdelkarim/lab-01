@@ -1,0 +1,21 @@
+main {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) and (min-width: 768px){
+    body {
+        width: 960px;
+        margin: 0px;
+    }
+    main{
+        width: 100%;
+    }
+
+    .headerContainer ,.firstContainer ,.thirdContainerA ,.thirdContainerB , .footer{
+
+        height: 100%;
+        width: 100%;
+        position:static;
+     }
+}

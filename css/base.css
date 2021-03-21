@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    text-align: center;
+    position: relative;
+}
+body{
+    width: 100%;
+}
